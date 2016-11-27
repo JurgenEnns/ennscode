@@ -1,0 +1,68 @@
+.top-space {
+	margin-top: 60px;
+}
+@media (max-width: 768px) {
+	.top-space {
+		margin-top: 50px;
+	}
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+#payments td:nth-child(2) {
+	background-color: #D9EDF7;
+}
+
+#payments tr:hover~td:nth-child(2) {
+	background-color: #C4E3F3;
+}
+
+span::selection {
+	background-color: yellow;
+}
+
+td:target {
+	background-color: red;
+}
+
+.radio-form input[type="radio"] {
+	opacity: 0;
+	position: absolute;
+}
+
+.radio-form input[type="radio"] + label {
+	color: white;
+	background: gray;
+	padding: 1em;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	cursor: pointer;
+}
+
+.radio-form input[type="radio"]:checked + label {
+	background: orange;
+}
+
+.checkbox-form input[type="checkbox"] {
+	opacity: 0;
+	position: absolute;
+}
+
+.checkbox-form input[type="checkbox"] + label {
+	color: white;
+	background: gray;
+	padding: 1em;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	cursor: pointer;
+}
+
+.checkbox-form input[type="checkbox"]:checked + label {
+	background: blue;
+}
